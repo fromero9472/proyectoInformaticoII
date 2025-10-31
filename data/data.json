@@ -1,0 +1,274 @@
+[
+  {
+    "tema": "Tipos de Cable de Conexión",
+    "palabras_clave": ["unipolar", "bipolar", "coaxial", "cable", "conexión"],
+    "contenido": "Los cables de conexión se emplean para transportar energía o información entre equipos. Un cable unipolar posee un único conductor y se utiliza en tendidos simples de alimentación o señal, normalmente en corriente continua y baja potencia; el retorno se realiza por otra vía o por chasis. El cable bipolar incluye dos conductores aislados, adecuados para alimentación ida-vuelta y para señales diferenciales (mejor inmunidad al ruido). El coaxial está formado por un conductor central, dieléctrico, malla/ pantalla y cubierta: su geometría fija la impedancia característica (p. ej., 50 Ω o 75 Ω) y lo hace ideal para RF, TV y datos de alta frecuencia al reducir pérdidas y radiación. Otras familias frecuentes son par trenzado (UTP/FTP/STP) para redes Ethernet, cables USB (alimentación + pares de datos), y cables HDMI que combinan múltiples pares diferenciales para video/ audio digital de gran ancho de banda. La elección depende de: corriente/tensión máximas, frecuencia/impedancia, apantallado requerido, flexibilidad, sección del conductor y normativa de seguridad."
+  },
+  {
+    "tema": "Tipos de Fichas y Adaptadores",
+    "palabras_clave": ["ficha", "adaptador", "conector", "USB", "RJ45", "HDMI"],
+    "contenido": "Los conectores estandarizan la interconexión eléctrica. USB (A, C, micro) transporta datos y energía a periféricos; soporta diferentes velocidades (USB 2.0/3.x) y modos de carga. RJ45 se usa en Ethernet con par trenzado (Cat5e/Cat6/Cat6a…), definiendo velocidades de 100 Mbps a 10 Gbps y distancias típicas de 100 m. HDMI lleva video y audio digital con HDCP/CEC; VGA transporta video analógico; DisplayPort es una alternativa moderna para alta resolución. El jack de 3.5 mm conduce audio analógico TRS/TRRS. Los adaptadores pueden ser pasivos (solo cambian formato/ pinout cuando la señal es compatible) o activos (convierten el estándar, por ejemplo HDMI a VGA con electrónica interna). También existen adaptadores de potencia (corriente, tensión, polaridad) y hubs USB/HDMI. La selección debe considerar estándar de señal, dirección de conversión, alimentación disponible y resolución/bitrate objetivo."
+  },
+  {
+    "tema": "Tipos de Puertos del PC y Transmisión de Datos por Cable",
+    "palabras_clave": ["puertos", "USB", "Ethernet", "transmisión", "link", "datos"],
+    "contenido": "Los puertos del PC son interfaces físicas/lógicas para periféricos: USB (almacenamiento, entrada, audio), Ethernet (red LAN), HDMI/DP (video), audio, y puertos internos como SATA/PCIe. En transmisión por cable, el enlace puede ser serie (USB, SATA, PCIe) o paralelo (histórico: IDE, LPT); lo serie domina por su mayor velocidad y mejor integridad de señal a altas frecuencias. Cada estándar define capas eléctricas, protocolo, velocidad y longitudes máximas. La calidad del link depende de la impedancia del cable/conector, apantallado, control de errores (CRC) y negociación de velocidad. Buenas prácticas: usar cables certificados, evitar curvaturas pronunciadas, no superar las longitudes recomendadas y actualizar drivers/firmware para compatibilidad y rendimiento."
+  },
+  {
+    "tema": "Circuitos Impresos (PCB)",
+    "palabras_clave": ["PCB", "circuito impreso", "simple faz", "doble faz", "soldadura", "diseño"],
+    "contenido": "Un PCB proporciona soporte mecánico y conexión eléctrica mediante pistas de cobre sobre sustrato (FR-4, entre otros). Puede ser de una cara, doble cara o multicapa (incluye planos de tierra/alimentación para EMI y distribución de corriente). El flujo de diseño contempla: esquemático (bibliotecas y reglas), asignación de huellas, colocación orientada a flujo de señal y disipación, enrutado con control de ancho/ separación, pares diferenciales, longitudes equivalentes y retorno de corriente. Las vías (through, ciegas, enterradas) conectan capas. La fabricación involucra fotolitografía, grabado, taladrado y enmascarado. El ensamblado puede ser THT o SMD (reflow con pasta de soldar). Reglas clave: mantener bucles cortos, separar analógico/digital/potencia, respetar impedancias y añadir test points."
+  },
+  {
+    "tema": "Seguridad y Conexión a Tierra",
+    "palabras_clave": ["seguridad", "conexión a tierra", "equipos", "instalación", "electrónica"],
+    "contenido": "La seguridad eléctrica se basa en proteger a las personas y a los equipos. La conexión a tierra limita tensiones de fuga y facilita la actuación de protecciones (disyuntores diferenciales). Se recomienda usar tomas con puesta a tierra verificada, protectores contra sobre-tensiones (varistores, supresores), fusibles o disyuntores adecuados, y separación galvánica cuando corresponda. En electrónica, la pulsera y tapete antiestático (ESD) previenen descargas que dañan componentes sensibles. Procedimientos: trabajar con equipos desenergizados, una mano detrás de la espalda en alta tensión, comprobar ausencia de tensión con el multímetro, mantener orden y cables en buen estado, y documentar permisos/etiquetado (LOTO) en intervenciones."
+  },
+  {
+    "tema": "Mantenimiento de Equipos y Herramientas",
+    "palabras_clave": ["mantenimiento", "herramientas", "multímetro", "pinzas", "destornilladores"],
+    "contenido": "El mantenimiento preventivo extiende la vida útil y reduce fallas: limpieza de polvo (aire comprimido controlado), revisión de conectores, ventiladores y disipadores, verificación de tensiones y temperaturas, y actualización de firmware/ drivers. El mantenimiento correctivo abarca diagnóstico sistemático (síntoma → hipótesis → prueba → acción), sustitución de piezas y pruebas de regresión. Herramientas habituales: multímetro, pinzas, destornilladores, estación de soldadura/aire caliente, alcohol isopropílico, pasta térmica. Buenas prácticas: checklist por equipo, registro de intervenciones/fechas, control de repuestos, normas ESD, y pruebas finales (burn-in, benchmark básico) antes de la entrega."
+  },
+  {
+    "tema": "Componentes Electrónicos Básicos",
+    "palabras_clave": ["LED", "capacitor", "diodo", "resistencia", "potenciómetro", "buzzer"],
+    "contenido": "Los componentes pasivos y activos definen el comportamiento de un circuito. El LED es un diodo emisor de luz que requiere limitación de corriente (resistencia en serie), posee caída de tensión típica (1.8–3.3 V según color) y polaridad. El capacitor almacena energía en un campo eléctrico: los cerámicos se usan para desacoplo/alta frecuencia, los electrolíticos para filtrado de baja frecuencia; su reactancia depende de la frecuencia y existen parámetros como ESR y tensión máxima. El diodo conduce en una sola dirección (rectificación, protección, pinza); variantes: Schottky (baja caída), Zener (referencia/limitación de tensión). La resistencia disipa potencia y fija corrientes/ divisores; su tolerancia (±1 %, ±5 %) y potencia (1/4 W, 1/2 W…) determinan precisión y capacidad. El potenciómetro varía resistencia para ajuste de nivel/posición. El buzzer puede ser activo (oscila solo) o pasivo (requiere señal). Además: los relés permiten conmutar cargas aislando control y potencia; los reguladores lineales/conmutados estabilizan tensión; los sensores (temperatura, luz, movimiento) convierten magnitudes físicas en señales eléctricas; y los microcontroladores integran CPU, memoria y periféricos para aplicaciones embebidas."
+  },
+  {
+    "tema": "Transistores y Circuitos Integrados",
+    "palabras_clave": ["transistor", "historia", "circuito integrado", "amplificación", "conmutación"],
+    "contenido": "El transistor permite amplificar y conmutar. En BJT (NPN/PNP) la corriente de base controla la de colector; parámetros: beta, VCE(sat), potencia y frecuencia de corte. En FET/MOSFET la tensión de compuerta controla el canal; ventajas: alta impedancia de entrada y baja caída en conducción (RDS(on)), clave en fuentes conmutadas. Los CI integran miles/millones de transistores (lógica TTL/CMOS, operacionales, memorias, microcontroladores y microprocesadores). Beneficios: tamaño, costo por unidad y fiabilidad. Buenas prácticas: polarización correcta, disipación térmica, diodos de rueda libre en cargas inductivas y uso de optoacopladores cuando se aíslan secciones. Aplicaciones típicas: etapas amplificadoras de audio, drivers de motores y solenoides, conversores DC-DC, filtros activos con operacionales, y sistemas digitales con puertas lógicas y flip-flops que construyen contadores y registros."
+  },
+  {
+    "tema": "Historia de la Computación",
+    "palabras_clave": ["historia", "computadora", "máquina de engranajes", "generaciones", "tecnología"],
+    "contenido": "Desde el ábaco y dispositivos de Pascal/Leibniz, la idea de Babbage (Máquina Analítica) y los algoritmos de Lovelace sentaron bases. El siglo XX introdujo equipos electromecánicos y luego electrónicos: ENIAC, EDVAC, UNIVAC. La miniaturización pasó de válvulas a transistores y a circuitos integrados, hasta microprocesadores (Intel 4004, 8086). La PC popularizó la informática personal; Internet conectó sistemas globalmente; la era moderna integra cómputo móvil, nube e IA con miles de millones de dispositivos. La evolución refleja mejoras en velocidad, costo por operación, consumo y tamaño, habilitando nuevas aplicaciones científicas e industriales. Hitos adicionales: UNIX y los lenguajes C/C++ para sistemas, la web y navegadores, virtualización y contenedores, y la computación paralela masiva en GPU."
+  },
+  {
+    "tema": "Generaciones de Computadoras",
+    "palabras_clave": ["generaciones", "válvulas de vacío", "transistores", "circuitos integrados", "microprocesadores"],
+    "contenido": "1ª gen.: válvulas de vacío, programación en lenguaje máquina y tarjetas perforadas; grandes, frágiles y de alto consumo. 2ª gen.: transistores, más fiables y compactos; aparición temprana de lenguajes de alto nivel. 3ª gen.: circuitos integrados, multiprogramación y sistemas operativos más complejos. 4ª gen.: microprocesadores y computación personal; redes locales, interfaces gráficas. 5ª gen.: énfasis en paralelismo, IA, cómputo distribuido y nube. Hoy conviven arquitecturas heterogéneas (CPU+GPU+TPU) y dispositivos embebidos con bajo consumo. Además, la miniaturización (ley de Moore) y la eficiencia energética han impulsado desde centros de datos a dispositivos IoT, con nuevas tendencias como RISC-V y computación en el borde."
+  },
+  {
+    "tema": "Computadoras Analógicas y Digitales",
+    "palabras_clave": ["analógico", "digital", "señales", "datos"],
+    "contenido": "El cómputo analógico modela sistemas continuos (voltaje, posición) mediante redes eléctricas/ mecánicas; es muy rápido para ecuaciones diferenciales pero menos flexible y preciso frente al ruido. El cómputo digital codifica la información en bits (0/1), habilitando almacenamiento fiable, corrección de errores y programación general. La mayoría de sistemas actuales son digitales con interfaces analógicas: sensores → ADC → procesamiento digital → DAC/ actuadores. El diseño considera muestreo (teorema de Nyquist), cuantización y filtrado anti-aliasing. Ejemplos: control de temperatura (sensor analógico + PID digital), audio digital (muestreo 44.1 kHz/48 kHz) y adquisición de datos industriales."
+  },
+  {
+    "tema": "Unidades de Almacenamiento",
+    "palabras_clave": ["bit", "byte", "nibble", "kilobyte", "megabyte", "terabyte"],
+    "contenido": "El bit es la unidad básica (0 o 1). 1 byte = 8 bits; un nibble = 4 bits. Prefijos decimales del almacenamiento comercial: kB (10^3), MB (10^6), GB (10^9), TB (10^12); binarios (usados en memoria): KiB (2^10), MiB (2^20), GiB (2^30). Dispositivos: RAM (volátil, rápida), SSD/HDD (no volátil), memorias flash y tarjetas; rendimiento medido en latencia, IOPS y ancho de banda. Compresión y sistemas de archivos influyen en el espacio utilizable. También existen jerarquías de memoria (cachés L1/L2/L3, RAM, almacenamiento) que equilibran costo, capacidad y velocidad."
+  },
+  {
+    "tema": "Sistemas de Numeración",
+    "palabras_clave": ["decimal", "binario", "octal", "hexadecimal", "conversión"],
+    "contenido": "Los sistemas posicionales representan valores como suma de dígitos por potencias de la base. Binario (base 2) es natural para hardware; hexadecimal (base 16) compacta 4 bits por dígito; octal (base 8) fue útil en arquitecturas antiguas. Conversión: dividir/ multiplicar por la base, o agrupar bits en nibbles para hex. Complemento a dos representa enteros con signo; punto fijo/ flotante modelan reales con diferentes compromisos de rango y precisión. Para direccionamiento y depuración, es común expresar direcciones y máscaras en hexadecimal."
+  },
+  {
+    "tema": "Códigos Binarios y Operaciones Aritméticas",
+    "palabras_clave": ["código binario", "operaciones aritméticas", "suma", "resta", "multiplicación"],
+    "contenido": "Los códigos binarios incluyen BCD (cada dígito decimal en 4 bits), ASCII/Unicode (caracteres), códigos de detección/corrección de errores (paridad, Hamming). La ALU implementa suma/resta con sumadores completos y complemento a dos; la multiplicación se realiza por sumas/ desplazamientos o unidades dedicadas; la división por restas sucesivas o algoritmos como restoring. A nivel de software, se usan tipos enteros con desbordamiento definido por la arquitectura y formatos IEEE 754 para punto flotante. En almacenamiento y comunicaciones se aplican CRC y códigos Reed-Solomon para detectar/corregir errores, mejorando la fiabilidad del sistema."
+  },
+  {
+    "tema": "Compuertas Lógicas",
+    "palabras_clave": ["compuerta lógica", "puerta lógica", "AND", "OR", "NOT", "NAND", "NOR", "XOR"],
+    "contenido": "Las compuertas implementan funciones booleanas básicas: AND (producto lógico), OR (suma lógica), NOT (inversión), NAND/NOR (universales: permiten construir cualquier función), XOR/XNOR (paridad/igualdad). Se representan con símbolo y tabla de verdad. Aspectos prácticos: niveles lógicos, fan-in/fan-out, tiempos de propagación y consumo (familias TTL y CMOS). A partir de estas puertas se construyen multiplexores, decodificadores, comparadores, sumadores, flip-flops y, en última instancia, CPUs."
+  },
+  {
+    "tema": "Diseño de Circuitos con Compuertas Lógicas",
+    "palabras_clave": ["circuito lógico", "tabla de verdad", "simbología", "diseño digital"],
+    "contenido": "El flujo típico: especificar con tabla de verdad, obtener expresión booleana (suma de productos/ producto de sumas), simplificar (mapas de Karnaugh o álgebra booleana) y sintetizar con puertas o bloques (MUX/DEMUX/PLA). El diseño secuencial añade memoria mediante flip-flops (SR, D, JK, T), define estados y transiciones (diagramas ASM) y sincroniza con un reloj. Herramientas de simulación permiten verificar temporización y peligros (hazards) antes de implementar."
+  },
+  {
+    "tema": "Esquema General de una Computadora",
+    "palabras_clave": ["computadora", "CPU", "periféricos", "memoria", "placa madre"],
+    "contenido": "Un sistema típico integra CPU, memoria (cachés y RAM), almacenamiento (SSD/HDD), placa madre con chipsets/ buses (PCIe, USB, SATA), fuente, y periféricos de E/S (teclado, ratón, red, video, audio). El bus coordina transferencia de datos, direcciones y control. El sistema operativo gestiona procesos, memoria, archivos y dispositivos. Variantes: desktops, portátiles, servidores (redundancia, RAID, virtualización) y sistemas embebidos (consumo reducido y E/S específicas)."
+  },
+  {
+    "tema": "Unidad Central de Procesos (CPU)",
+    "palabras_clave": ["CPU", "microprocesador", "unidad de control", "ALU", "registros"],
+    "contenido": "La CPU ejecuta instrucciones del conjunto ISA (por ejemplo x86, ARM). Componentes: unidad de control (decodifica), ALU/FPU (cálculo entero y de punto flotante), registros (generales, de estado, de control), y cachés. Técnicas modernas: pipeline, ejecución fuera de orden, predicción de saltos y SIMD. La interacción con memoria sigue la jerarquía caché→RAM→almacenamiento. En microcontroladores la CPU se integra con periféricos de E/S y temporizadores en un solo chip."
+  },
+  {
+    "tema": "DEBUG y Manejo de Registros",
+    "palabras_clave": ["debug", "comandos", "registro", "entrada", "salida", "ensamblador"],
+    "contenido": "DEBUG (y herramientas modernas como depuradores integrados) permiten inspeccionar/modificar registros y memoria, ejecutar paso a paso, establecer breakpoints y ver el flujo de instrucciones. En x86 clásicos: AX, BX, CX, DX; punteros SP/BP y SI/DI; banderas (ZF, CF, SF, OF). La depuración ayuda a comprender direccionamiento, interrupciones, llamadas a BIOS/SO y E/S de puertos. El tracing de instrucciones es útil para estudiar rendimiento y efectos secundarios."
+  },
+  {
+    "tema": "Memoria, Bus y Microcontrolador",
+    "palabras_clave": ["memoria cache", "bus de datos", "bus de direcciones", "bus de control", "microprocesador", "microcontrolador"],
+    "contenido": "La jerarquía de memoria incluye cachés (L1/L2/L3) que reducen la latencia hacia la RAM; el bus de datos mueve valores, el de direcciones selecciona ubicaciones y el de control sincroniza lecturas/escrituras. DMA permite a dispositivos transferir datos sin cargar la CPU. Un microprocesador requiere memorias/ periféricos externos; un microcontrolador integra CPU, RAM/Flash, temporizadores, GPIO, ADC/DAC y comunicaciones (UART, SPI, I2C), simplificando sistemas embebidos."
+  },
+  {
+    "tema": "Placa Madre y Componentes",
+    "palabras_clave": ["placa madre", "BIOS", "fuente de alimentación", "reloj", "slot", "memoria RAM", "placa de video", "placa de sonido"],
+    "contenido": "La placa madre contiene socket de CPU, bancos de RAM, chipset (controla buses/puertos), slots de expansión (PCIe), almacenamiento (SATA/NVMe), conectividad (USB, Ethernet), audio y reguladores VRM. UEFI/BIOS inicializa hardware y permite configuración (boot, perfiles XMP). La fuente ATX suministra tensiones reguladas; el reloj del sistema sincroniza buses. La RAM puede ser DDR4/DDR5; existen GPU dedicadas para gráficos/cómputo paralelo."
+  },
+  {
+    "tema": "Interfaces y Puertos de Entrada/Salida",
+    "palabras_clave": ["interfaces", "E/S", "puertos", "USB", "infrarrojo", "RF", "bluetooth", "Wi-Fi"],
+    "contenido": "Las interfaces E/S abarcan buses cableados (USB, HDMI/DP, Ethernet, PCIe) e inalámbricos (Wi‑Fi, Bluetooth, NFC, infrarrojo). Parámetros: velocidad, alcance, latencia, consumo, topología y compatibilidad. USB ofrece clases estándar (HID, Mass Storage, Audio); Ethernet opera por capas OSI con conmutación; Wi‑Fi añade autenticación y cifrado; Bluetooth es eficiente para periféricos de baja potencia. La elección depende del caso de uso y requisitos de seguridad."
+  },
+  {
+    "tema": "Almacenamiento de Datos y Mantenimiento",
+    "palabras_clave": ["HD", "almacenamiento físico", "virtual", "software", "mantenimiento", "soportes"],
+    "contenido": "El almacenamiento físico (HDD, SSD, NVMe, cintas) se complementa con soluciones virtuales como SAN/NAS y nube. La confiabilidad se gestiona con redundancia (RAID 1/5/6/10), S.M.A.R.T., scrubbing y verificación de integridad. Buenas prácticas: esquema de copias 3‑2‑1, control de versiones, cifrado en reposo y en tránsito, y monitoreo de capacidad y rendimiento. El mantenimiento incluye desfragmentación cuando aplica, actualización de firmware y pruebas periódicas de restauración."
+  },
+  {
+    "tema": "Origen de la Electricidad",
+    "palabras_clave": ["electricidad", "historia", "Franklin", "Volta", "Galvani", "Faraday", "Maxwell"],
+    "contenido": "La electricidad se asocia al movimiento/ acumulación de cargas. Tras observaciones antiguas (ámbar/ magnetismo), Gilbert acuñó el término ‘eléctrico’. Franklin estudió la naturaleza eléctrica de los rayos; Galvani y Volta establecieron las bases de la electroquímica (pila). Ørsted relacionó corriente y campo magnético; Faraday describió la inducción; Maxwell unificó electricidad y magnetismo con sus ecuaciones, dando base al electromagnetismo moderno y a tecnologías como generadores, motores y comunicaciones."
+  },
+  {
+    "tema": "Teoría Atómica y Materia",
+    "palabras_clave": ["átomo", "electrón", "protón", "neutrón", "estructura", "elemento", "compuesto", "molécula"],
+    "contenido": "La materia está compuesta por átomos con un núcleo (protones positivos y neutrones neutros) y electrones en niveles de energía. Los enlaces iónicos, covalentes y metálicos explican la formación de compuestos y las propiedades macroscópicas (dureza, conductividad, punto de fusión). La conductividad depende de los electrones de valencia: en metales el ‘mar’ electrónico permite flujo libre; en aislantes los electrones están fuertemente ligados; en semiconductores, el dopado (tipo n/p) y la temperatura controlan la densidad de portadores. Conceptos como banda de valencia y banda de conducción modelan su comportamiento eléctrico."
+  },
+  {
+    "tema": "Conductividad Eléctrica",
+    "palabras_clave": ["conductividad", "resistividad", "σ", "ρ", "conductor", "aislante", "semiconductor"],
+    "contenido": "La conductividad (σ) indica cuán fácilmente circula la corriente; su inversa es la resistividad (ρ). Para un conductor homogéneo: R = ρ·L/A. En metales, la resistividad suele aumentar con la temperatura; en semiconductores decrece por generación de portadores. Factores: material, sección, longitud, temperatura, estado superficial y frecuencia (efecto pelicular en AC). La elección de conductor/aislante depende del uso (potencia, RF, electrónica de precisión) y de la seguridad eléctrica."
+  },
+  {
+    "tema": "Carga Eléctrica y Ley de Coulomb",
+    "palabras_clave": ["carga eléctrica", "Coulomb", "fuerza", "q", "r"],
+    "contenido": "La carga eléctrica (en coulombs) genera interacción electrostática. La ley de Coulomb modela la fuerza entre dos cargas puntuales: F = k·|q1·q2|/r^2, dirigida a lo largo de la línea que las une; como signo, cargas iguales se repelen y opuestas se atraen. En medios materiales aparece la permitividad relativa (εr) que reduce la fuerza respecto al vacío. Esta ley es análoga a la gravitatoria pero con posibilidad de atracción o repulsión."
+  },
+  {
+    "tema": "Campo Electrostatico y Diferencia de Potencial",
+    "palabras_clave": ["campo eléctrico", "E", "voltaje", "V", "diferencia de potencial"],
+    "contenido": "El campo eléctrico (E) representa la fuerza por unidad de carga: E = F/q. Las líneas de campo van de cargas positivas a negativas. La diferencia de potencial (V) expresa el trabajo por unidad de carga para moverse entre dos puntos: V = W/q; se relaciona con el campo por la integral del camino. En conductores, las cargas libres se redistribuyen para anular el campo en equilibrio; en dieléctricos, el material se polariza."
+  },
+  {
+    "tema": "Corriente y Flujo de Corriente",
+    "palabras_clave": ["corriente", "I", "ampere", "DC", "AC", "densidad de corriente"],
+    "contenido": "La corriente I = dQ/dt es el flujo de carga por unidad de tiempo; su dirección convencional es la del movimiento de cargas positivas. En DC el sentido es constante; en AC invierte periódicamente y se caracteriza por frecuencia y forma de onda. La densidad de corriente J = I/A vincula corriente y sección. En AC y altas frecuencias aparece el efecto pelicular y la necesidad de cables multifilares o tubos para reducir pérdidas."
+  },
+  {
+    "tema": "Fuentes de Electricidad",
+    "palabras_clave": ["pila", "batería", "celda solar", "energía térmica", "generador", "DC", "AC"],
+    "contenido": "Las fuentes convierten energía química, luminosa o mecánica en eléctrica. Pilas/baterías (químicas) suministran DC; las primarias no se recargan y las secundarias sí. Los paneles fotovoltaicos generan DC proporcional a irradiancia y temperatura; los generadores/ alternadores convierten rotación en AC mediante inducción; los módulos termoeléctricos aprovechan gradientes de temperatura. Las fuentes reguladas (lineales o conmutadas) estabilizan tensión/corriente para proteger equipos."
+  },
+  {
+    "tema": "Magnetismo y Electromagnetismo",
+    "palabras_clave": ["magnetismo", "campo magnético", "Faraday", "Oersted", "inducción", "histéresis", "flujo magnético"],
+    "contenido": "El magnetismo surge del movimiento de cargas y del espín electrónico. Una corriente crea un campo magnético (experimento de Ørsted); un cambio de flujo en un circuito induce una fem (ley de Faraday‑Lenz), base de transformadores y generadores. Los materiales se clasifican en dia/para/ferromagnéticos; estos últimos presentan histéresis (curva B‑H) y saturación, importantes para núcleos de inductores y motores."
+  },
+  {
+    "tema": "Símbolos y Diagramas Eléctricos",
+    "palabras_clave": ["diagrama esquemático", "diagrama unifilar", "diagrama de bloques", "símbolos eléctricos"],
+    "contenido": "Los diagramas normalizados comunican cómo se conectan y funcionan los componentes. El esquemático detalla cada símbolo y unión eléctrica; el unifilar resume redes de potencia y protecciones; el diagrama de bloques muestra módulos y flujos de señal. Buenas prácticas: referencias cruzadas, valores/tolerancias, anotación de pruebas y notas de seguridad. Facilitan diseño, mantenimiento y diagnóstico."
+  },
+  {
+    "tema": "Ley de Ohm y Potencia",
+    "palabras_clave": ["V", "I", "R", "P", "circuito abierto", "circuito cerrado"],
+    "contenido": "La ley de Ohm relaciona tensión, corriente y resistencia: V = I·R. La potencia eléctrica se expresa como P = V·I = I²·R = V²/R. En circuito abierto no fluye corriente; en cortocircuito la resistencia es muy baja y la corriente puede ser peligrosa. Estas relaciones permiten dimensionar resistencias, fusibles y fuentes para evitar sobrecalentamientos y pérdidas excesivas."
+  },
+  {
+    "tema": "Resistores",
+    "palabras_clave": ["resistor", "fijo", "variable", "potenciómetro", "reóstato", "tolerancia", "potencia"],
+    "contenido": "Los resistores limitan y dividen corriente/tensión. Tipos: carbón, película metálica (precisos y estables), bobinados (alta potencia), SMD para montaje superficial. Parámetros: valor nominal, tolerancia (±0.1–5 %), coeficiente de temperatura (ppm/°C) y potencia (1/8–5 W o más). Variables: potenciómetros (ajuste manual) y reóstatos. La selección debe considerar disipación, ruido, tensión máxima y entorno térmico."
+  },
+  {
+    "tema": "Instrumentos de Medición",
+    "palabras_clave": ["voltímetro", "amperímetro", "tester", "multímetro", "osciloscopio"],
+    "contenido": "El multímetro mide V/I/R y continuidad; el voltímetro va en paralelo (alta impedancia) y el amperímetro en serie (baja caída). El osciloscopio visualiza señales en el tiempo (amplitud, frecuencia, forma de onda, fase); las puntas deben adecuarse a la tensión/ ancho de banda. Otras herramientas: generador de funciones, fuente regulada, pinza amperométrica y analizador lógico para señales digitales."
+  },
+  {
+    "tema": "Circuitos Serie",
+    "palabras_clave": ["serie", "corriente", "voltaje", "resistencia total", "potencia total"],
+    "contenido": "En serie, la misma corriente circula por todos los elementos. La tensión total es la suma de caídas: Vt = V1+V2+…; la resistencia equivalente es RT = R1+R2+…; la potencia total es la suma de potencias individuales. Es útil para divisores de tensión y limitación de corriente, pero sensible a fallos: si un elemento abre el circuito, se interrumpe la corriente."
+  },
+  {
+    "tema": "Circuitos Paralelo",
+    "palabras_clave": ["paralelo", "voltaje", "corriente total", "resistencia equivalente", "conductancia"],
+    "contenido": "En paralelo, la tensión es común a todas las ramas y la corriente total es la suma de corrientes parciales. La resistencia equivalente cumple 1/RT = 1/R1 + 1/R2 + … (o por conductancias: GT = G1+G2+…). Ventajas: si una rama se abre, las demás siguen funcionando; se usa para distribuir cargas y reducir resistencia equivalente, aumentando la corriente posible."
+  },
+  {
+    "tema": "Circuitos Combinados",
+    "palabras_clave": ["serie", "paralelo", "ley de Kirchhoff", "malla", "nodo", "R_eq"],
+    "contenido": "Los circuitos reales combinan tramos en serie y en paralelo. La resolución se aborda reduciendo bloques a equivalentes y, para redes complejas, aplicando leyes de Kirchhoff (corrientes en nodos y tensiones en mallas), divisores y teoremas de Thévenin/Norton. El análisis temporal requiere considerar capacitores/inductores y ecuaciones diferenciales o técnicas en el dominio de Laplace."
+  },
+  {
+    "tema": "Baterías y Celdas",
+    "palabras_clave": ["celda voltaica", "serie", "paralelo", "primaria", "secundaria"],
+    "contenido": "Una celda convierte energía química en eléctrica por reacciones redox. Al conectar celdas en serie aumenta el voltaje; en paralelo, la capacidad (Ah). Primarias (zinc-carbón, alcalinas) no son recargables; secundarias (NiMH, Li‑ion, plomo‑ácido) sí. Parámetros: tensión nominal, capacidad, corriente máxima, ciclo de vida, autodescarga y temperatura de operación. Reglas: no mezclar químicas ni estados de carga, y usar cargadores adecuados."
+  },
+  {
+    "tema": "Tipos y Características de Baterías",
+    "palabras_clave": ["alcalina", "plomo-ácido", "NiCd", "NiMH", "Li-ion", "voltaje", "capacidad"],
+    "contenido": "Zinc‑carbón y alcalinas (1.5 V) son económicas para consumo bajo. NiCd (1.2 V) tolera altas corrientes pero presenta efecto memoria y restricciones ambientales; NiMH (1.2 V) ofrece mejor densidad energética. Li‑ion (≈3.6–3.7 V por celda) destaca en densidad y baja autodescarga, requiere protección BMS; LiFePO4 es más segura y longeva. Plomo‑ácido (2 V por celda) es robusta y económica para respaldo/automoción. La elección depende de energía, potencia, costo, ciclo de vida y seguridad."
+  },
+  {
+    "tema": "Baterías en PC y UPS",
+    "palabras_clave": ["PC", "CR2032", "laptop", "Li-ion", "UPS", "VRLA"],
+    "contenido": "Las placas madre usan celdas tipo moneda (CR2032) para RTC/CMOS. Las notebooks integran packs Li‑ion con BMS (balanceo, protección y medición); su salud depende de ciclos, temperatura y profundidad de descarga. Los UPS emplean VRLA (plomo‑ácido selladas) por costo y entrega de alta corriente; modelos modernos incorporan Li‑ion/ LiFePO4 por mayor densidad y vida útil, con gestión térmica y monitoreo."
+  },
+  {
+    "tema": "Gestores, Clientes y Administradores",
+    "palabras_clave": ["gestor", "cliente", "usuario", "administrador", "recursos", "interfaz"],
+    "contenido": "En arquitectura cliente‑servidor, los gestores (servidores) ofrecen recursos y servicios (archivos, impresión, bases de datos), los clientes los consumen y los administradores configuran políticas, permisos y monitoreo. Las interfaces pueden ser gráficas o CLI/ API. Buenas prácticas incluyen control de acceso basado en roles, registro de auditoría y copias de respaldo para continuidad operativa."
+  },
+  {
+    "tema": "Concepto de Proceso",
+    "palabras_clave": ["proceso", "estado", "señales", "excepciones", "interrupciones"],
+    "contenido": "Un proceso es un programa en ejecución con su espacio de direcciones y recursos; puede crear hilos (threads) que comparten memoria. Estados típicos: nuevo, listo, ejecución, bloqueado, terminado. Señales y excepciones notifican eventos; las interrupciones permiten respuesta inmediata a hardware/temporizadores. Planificadores (round‑robin, prioridades) multiplexan CPU; la sincronización requiere mutexes, semáforos y colas para evitar condiciones de carrera."
+  },
+  {
+    "tema": "Administración de Memoria",
+    "palabras_clave": ["memoria", "asignación", "intercambio", "memoria virtual"],
+    "contenido": "La gestión de memoria abarca asignación dinámica, segmentación y paginación. La memoria virtual mapea direcciones lógicas a físicas y permite sobre‑asignación; la paginación por demanda trae páginas a RAM y puede intercambiar a disco (swap). TLB y cachés aceleran traducciones; la protección evita accesos indebidos entre procesos. Estrategias de reemplazo (LRU, FIFO) afectan rendimiento."
+  },
+  {
+    "tema": "Administración de Archivos",
+    "palabras_clave": ["archivo", "sistema de archivos", "operaciones", "lectura", "escritura"],
+    "contenido": "Un sistema de archivos organiza datos en directorios y metadatos (permisos, fechas, dueño). Operaciones: crear, leer, escribir, renombrar, mover, borrar. Funciones avanzadas: journaling para integridad tras fallos, cuotas, enlaces duros/simbólicos, ACLs y atributos extendidos. Ejemplos: NTFS, ext4, APFS; cada uno prioriza distinta combinación de rendimiento, confiabilidad y características."
+  },
+  {
+    "tema": "Tipos de Sistemas Operativos",
+    "palabras_clave": ["sistema operativo", "propietario", "libre", "código cerrado", "código abierto"],
+    "contenido": "Los SO pueden ser propietarios (licencia comercial) u open‑source (código disponible). Además se clasifican por propósito: de escritorio, servidores, móviles, embebidos o de tiempo real. Windows y macOS priorizan integración y ecosistema; Linux ofrece modularidad y control (distros). La elección depende de compatibilidad de software, soporte, seguridad, rendimiento y coste total de propiedad."
+  },
+  {
+    "tema": "Suministro Eléctrico y Protección",
+    "palabras_clave": ["suministro eléctrico", "protección", "equipos", "personas", "normas"],
+    "contenido": "Un suministro estable protege personas y equipos. Medidas: puesta a tierra, protecciones magnetotérmicas y diferenciales, supresores de sobretensión, estabilizadores y UPS para cortes. En informática: distribución correcta de cargas en tomas, cableado certificado y verificación periódica. La normativa local establece secciones, protecciones y etiquetado para minimizar riesgos."
+  },
+  {
+    "tema": "Tendido, Ensamblado y Desmontaje",
+    "palabras_clave": ["tendido eléctrico", "conexionado", "ensamblado", "desmontaje", "componentes"],
+    "contenido": "El tendido contempla planificación de rutas, etiquetado, radios mínimos de curvatura y sujeción para evitar tracción. El ensamblado requiere control ESD, uso de herramientas adecuadas, aplicación de pasta térmica y gestión de cables para buen flujo de aire. El desmontaje documenta conectores y tornillería, y revisa daños/ desgaste. Pruebas posteriores validan continuidad, polaridad y funcionamiento."
+  },
+  {
+    "tema": "Instalación y Configuración de Software",
+    "palabras_clave": ["software", "instalación", "configuración", "actualización", "sistema operativo", "aplicación"],
+    "contenido": "El ciclo incluye requisitos, instalación (asistente o línea de comandos), configuración (archivos/registro), actualización y desinstalación limpia. Buenas prácticas: verificar hashes/firmas, instalar dependencias, crear backups previos, usar perfiles por entorno y aplicar parches de seguridad. Las pruebas de humo verifican que el sistema arranca y cumple funciones básicas tras cada cambio."
+  },
+  {
+    "tema": "Resguardo y Recuperación de Información",
+    "palabras_clave": ["resguardo", "backup", "recuperación", "datos", "información"],
+    "contenido": "Estrategias de backup: completo, incremental y diferencial; regla 3‑2‑1 (tres copias, dos medios, una off‑site). Medios: HDD/SSD externos, cinta, NAS y nube. Políticas de retención equilibran coste y recuperación histórica. Es crítico cifrar copias sensibles y realizar pruebas de restauración periódicas para garantizar que el plan funciona cuando se necesita."
+  },
+  {
+    "tema": "Seguridad Informática",
+    "palabras_clave": ["seguridad", "amenazas", "virus", "malware", "protección"],
+    "contenido": "La seguridad busca confidencialidad, integridad y disponibilidad (CIA). Amenazas: malware (virus, ransomware), phishing, ataques de red y errores humanos. Controles: autenticación fuerte, mínimos privilegios, parches oportunos, firewall, antivirus/EDR, cifrado y copias de seguridad. La concienciación del usuario y políticas claras (contraseñas, uso de dispositivos, respuesta a incidentes) reducen el riesgo real."
+  },
+  {
+    "tema": "Metodología de Análisis de Fallos y Mantenimiento",
+    "palabras_clave": ["análisis de fallos", "pruebas", "mantenimiento", "equipos", "diagnóstico"],
+    "contenido": "El proceso de troubleshooting sigue: definir el síntoma, delimitar el alcance, formular hipótesis, probar, corregir y verificar. Herramientas: logs, pruebas A/B, multímetro/ osciloscopio, software de diagnóstico. Mantenimiento preventivo planifica revisiones, limpieza, actualización de firmware y sustitución de piezas con vida útil finita; el correctivo repara tras la falla y documenta causas para evitar recurrencia."
+  },
+  {
+    "tema": "Conceptos de Red de Datos",
+    "palabras_clave": ["red de datos", "elementos", "protocolos", "mensajes", "comunicación"],
+    "contenido": "Una red conecta nodos a través de medios (cobre, fibra, radio) y dispositivos (switches, routers, puntos de acceso). Los protocolos definen reglas de comunicación en capas (modelo OSI/TCP‑IP). La calidad depende de ancho de banda, latencia, jitter, pérdida e interferencias. Existen mensajes de control (enrutamiento), de datos (payload) y de señalización (sesiones). Seguridad: segmentación, VLAN, ACL y cifrado punto a punto."
+  },
+  {
+    "tema": "Tipos de Redes y Características",
+    "palabras_clave": ["LAN", "MAN", "WAN", "SAN", "Internet", "peer-to-peer", "cliente-servidor"],
+    "contenido": "LAN: redes locales de alta velocidad y baja latencia; MAN: interconecta áreas metropolitanas; WAN: grandes distancias con enlaces troncales; SAN: redes dedicadas a almacenamiento de alto rendimiento; Internet: interconexión global basada en IP/BGP. Topologías: estrella, anillo, malla; arquitecturas: peer‑to‑peer (simetría) y cliente‑servidor (centralización). La elección depende de alcance, seguridad, costo y requisitos de disponibilidad."
+  }
+]
+
+
